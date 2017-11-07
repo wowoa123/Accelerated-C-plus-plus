@@ -22,7 +22,7 @@ int main()
     {
         int count = 0;
         cout << v[i] << ": ";
-        //·ÀÖ¹Ô½½ç
+        //é˜²æ­¢è¶Šç•Œ
         for (vec_sz j = i; j != v.size() && v[j] == v[i]; ++j)
             ++count;
         cout << count << endl;
