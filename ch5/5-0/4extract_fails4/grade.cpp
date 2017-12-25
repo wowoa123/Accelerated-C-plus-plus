@@ -3,14 +3,15 @@
 #include "median.h"
 #include "student_info.h"
 
-using namespace std;
+using std::list;
+using std::domain_error;
 
 double grade(double midterm, double final, double homework)
 {
     return 0.2 * midterm + 0.4 * final + 0.4 * homework;
 }
 
-double grade(double midterm, double final, const std::list<double> &hw)
+double grade(double midterm, double final, const list<double> &hw)
 {
     if (hw.size() == 0)
         throw domain_error("student has done'no, homework");

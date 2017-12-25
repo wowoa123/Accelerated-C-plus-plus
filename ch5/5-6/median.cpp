@@ -2,9 +2,10 @@
 #include <stdexcept>
 #include <algorithm>
 
-using namespace std;
+using std::vector;
+using std::domain_error;
 
-double median(std::vector<double> vec)
+double median(vector<double> vec)
 {
     typedef vector<double>::size_type vec_sz;
 

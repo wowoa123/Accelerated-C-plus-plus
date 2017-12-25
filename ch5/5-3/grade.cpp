@@ -3,7 +3,7 @@
 #include "median.h"
 #include "student_info.h"
 
-using namespace std;
+using std::domain_error;
 
 double grade(double midterm, double final, double homework)
 {

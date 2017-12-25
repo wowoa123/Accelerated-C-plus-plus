@@ -1,7 +1,7 @@
 #include "median.h"
 #include <stdexcept>
 
-using namespace std;
+using std::domain_error;
 
 double median(contain vec)
 {

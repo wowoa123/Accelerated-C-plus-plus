@@ -2,7 +2,8 @@
 #include <stdexcept>
 #include <algorithm>
 
-using namespace std;
+using std::vector;
+using std::domain_error;
 
 double median(std::vector<double> vec)
 {

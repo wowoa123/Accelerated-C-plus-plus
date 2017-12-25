@@ -1,9 +1,10 @@
 #include "median.h"
 #include <stdexcept>
 
-using namespace std;
+using std::list;
+using std::domain_error;
 
-double median(std::list<double> vec)
+double median(list<double> vec)
 {
     typedef list<double>::size_type lis_sz;
 
